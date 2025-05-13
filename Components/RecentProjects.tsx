@@ -24,7 +24,7 @@ const RecentProjects = () => {
                 <img
                   src={img}
                   alt={title}
-                  className="z-10 absolute -bottom-20 w-[80%]"
+                  className="z-10 absolute md:-bottom-20 -bottom-10 w-[80%]"
                   style={{
                     transform: "rotate(5deg)",
                     borderTopLeftRadius: "10px",
