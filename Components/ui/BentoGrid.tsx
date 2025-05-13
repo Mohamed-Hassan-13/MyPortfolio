@@ -74,7 +74,7 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className={`${id === 6 && "flex justify-center h-full"}`}>
+      <div className={cn(id === 6 ? "flex justify-center h-full" : "")}>
         <div className="w-full h-full absolute">
           {img && (
             <img
@@ -85,9 +85,10 @@ export const BentoGridItem = ({
           )}
         </div>
         <div
-          className={`absolute right-0 -bottom-5 ${
-            id === 5
-          } && 'w-full opacity-80'`}
+          className={cn(
+            "absolute right-0 -bottom-5",
+            id === 5 && "w-full opacity-80"
+          )}
         >
           {spareImg && (
             <img
