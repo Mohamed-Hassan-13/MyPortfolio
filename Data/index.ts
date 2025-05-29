@@ -80,6 +80,14 @@ export const navItems = [
     },
     {
       id: 2,
+      title: "Voxa Chat App",
+      des: "A real-time chat app built with React, Vite, Firebase, Zustand, and Cloudinary, allowing users to sign in and instantly chat and share images.",
+      img: "/Voxa.png",
+      iconLists: ["/re.svg", "zud.svg" , "/firebase.svg", "/cloudin.svg","/vite.svg"],
+      link: "https://github.com/Mohamed-Hassan-13/Voxa",
+    },
+    {
+      id: 3,
       title: "Swoo - E-commerce Platform",
       des: "A modern e-commerce platform built with React and Strapi, featuring a user-friendly interface, product management, and smooth browsing experience.",
       img: "/swoo.png",
@@ -87,7 +95,7 @@ export const navItems = [
       link: "https://github.com/Mohamed-Hassan-13/swoo",
     },
     {
-      id: 3,
+      id: 4,
       title: "Brainwave - AI Landing Page",
       des: "A modern, responsive AI landing page built with React.js and Tailwind CSS, featuring smooth animations and a clean design.",
       img: "/brainwave.png",
@@ -95,7 +103,7 @@ export const navItems = [
       link: "https://github.com/Mohamed-Hassan-13/brainwave",
     },
     {
-      id: 4,
+      id: 5,
       title: "M-H Store - Full-Stack E-commerce App",
       des: "A full-stack e-commerce app with React, Tailwind CSS, and Laravel, featuring a complete admin dashboard and user management.",
       img: "/mhstore.png",
@@ -103,7 +111,7 @@ export const navItems = [
       link: "https://github.com/Mohamed-Hassan-13/M-H-Store",
     },
     {
-      id: 5,
+      id: 6,
       title: "Nike Store - E-commerce Landing Page",
       des: "A stylish Nike e-commerce landing page built with React and Tailwind CSS, showcasing products with a sleek and responsive design.",
       img: "/nike.png",
