@@ -82,7 +82,7 @@ export const navItems = [
       id: 2,
       title: "Voxa Chat App",
       des: "A real-time chat app built with React, Vite, Firebase, Zustand, and Cloudinary, allowing users to sign in and instantly chat and share images.",
-      img: "/voxa.png",
+      img: "/voxa2.png",
       iconLists: ["/re.svg", "zud.svg" , "/firebase.svg", "/cloudin.svg","/vite.svg"],
       link: "https://github.com/Mohamed-Hassan-13/Voxa",
     },
